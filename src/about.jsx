@@ -1,4 +1,5 @@
 import React from 'react'
+import { experienceLabel } from './helpers/indes'
 const About = () => {
     return <section id="about" className="py-20">
     <div className="container mx-auto px-6">
@@ -9,7 +10,7 @@ const About = () => {
                     <div className="floating-card">
                         <h3 className="text-2xl font-bold mb-3 text-blue-400">Our Story</h3>
                         <p className="text-gray-300">
-                            Kaushik Architects & Builders stands at the forefront of contemporary architecture, merging innovative design philosophy with sustainable construction practices to create spaces that inspire and endure.
+                            Kaushik Architects & Builders was founded in May 2014, beginning its journey with map approvals, architectural planning, 3D front elevations, interior 3D designs and consultancy services
                         </p>
                     </div>
                     
@@ -42,12 +43,12 @@ const About = () => {
                 </div>
                 <div className="floating-card text-center">
                     <i className="fas fa-users text-4xl text-blue-400 mb-4"></i>
-                    <h3 className="text-2xl font-bold">500+</h3>
+                    <h3 className="text-2xl font-bold">2000+</h3>
                     <p className="text-gray-400">Happy Clients</p>
                 </div>
                 <div className="floating-card text-center">
                     <i className="fas fa-calendar text-4xl text-blue-400 mb-4"></i>
-                    <h3 className="text-2xl font-bold">15+</h3>
+                    <h3 className="text-2xl font-bold">{experienceLabel(2014, 5)}</h3>
                     <p className="text-gray-400">Years Experience</p>
                 </div>
             </div>

@@ -9,12 +9,12 @@ const CompletedProjects = () => {
                     <div className="flex-1 flex items-center justify-center">
                         <div className="text-center">
                             <i className="fas fa-university text-5xl text-blue-400 mb-4"></i>
-                            <h3 className="text-xl font-bold">Heritage Corporate Tower</h3>
-                            <p className="text-gray-400">Pune | 2023</p>
+                            <h3 className="text-xl font-bold">Med Clap Pvt. Ltd. </h3>
+                            <p className="text-gray-400">Mohali | 2023</p>
                         </div>
                     </div>
                     <div className="bg-blue-400 bg-opacity-10 p-4 rounded-b-lg">
-                        <p className="text-sm text-gray-300">42-story commercial landmark with LEED Gold certification</p>
+                        <p className="text-sm text-gray-300">Text pending</p>
                     </div>
                 </div>
             </div>
@@ -24,12 +24,13 @@ const CompletedProjects = () => {
                     <div className="flex-1 flex items-center justify-center">
                         <div className="text-center">
                             <i className="fas fa-hospital text-5xl text-blue-400 mb-4"></i>
-                            <h3 className="text-xl font-bold">Apollo Medical Center</h3>
-                            <p className="text-gray-400">Chennai | 2022</p>
+                            <h3 className="text-xl font-bold">Offshore A-1 Technologies Pvt. Ltd.</h3>
+                            <p className="text-gray-400">IT Park Panchkula | 2022</p>
                         </div>
                     </div>
                     <div className="bg-blue-400 bg-opacity-10 p-4 rounded-b-lg">
-                        <p className="text-sm text-gray-300">State-of-the-art healthcare facility with modern design</p>
+                        <p className="text-sm text-gray-300">Offshore A-1 Technologies Pvt. Ltd. IT Park Panchkula
+                        With Ar. Munish Marya</p>
                     </div>
                 </div>
             </div>
@@ -38,13 +39,13 @@ const CompletedProjects = () => {
                 <div className="h-full flex flex-col justify-between">
                     <div className="flex-1 flex items-center justify-center">
                         <div className="text-center">
-                            <i className="fas fa-graduation-cap text-5xl text-blue-400 mb-4"></i>
-                            <h3 className="text-xl font-bold">Tech University Campus</h3>
-                            <p className="text-gray-400">Hyderabad | 2021</p>
+                            <i className="fas fa-building text-5xl text-blue-400 mb-4"></i>
+                            <h3 className="text-xl font-bold">Sun Enclave Tower</h3>
+                            <p className="text-gray-400">Rupnagar | 2021</p>
                         </div>
                     </div>
                     <div className="bg-blue-400 bg-opacity-10 p-4 rounded-b-lg">
-                        <p className="text-sm text-gray-300">Modern educational complex with smart classNameroom technology</p>
+                        <p className="text-sm text-gray-300">Sun Enclave Tower ,Rupnagar, Panjab</p>
                     </div>
                 </div>
             </div>
@@ -54,8 +55,8 @@ const CompletedProjects = () => {
                     <div className="flex-1 flex items-center justify-center">
                         <div className="text-center">
                             <i className="fas fa-shopping-bag text-5xl text-blue-400 mb-4"></i>
-                            <h3 className="text-xl font-bold">Central Shopping Mall</h3>
-                            <p className="text-gray-400">Gurgaon | 2022</p>
+                            <h3 className="text-xl font-bold">Rites Pvl. Ltd. Police Housing</h3>
+                            <p className="text-gray-400"> Sector 16-c Dwarka Delhi | Janakpuri New Delhi. | Dabri New Delhi</p>
                         </div>
                     </div>
                     <div className="bg-blue-400 bg-opacity-10 p-4 rounded-b-lg">
@@ -68,13 +69,14 @@ const CompletedProjects = () => {
                 <div className="h-full flex flex-col justify-between">
                     <div className="flex-1 flex items-center justify-center">
                         <div className="text-center">
-                            <i className="fas fa-tree text-5xl text-blue-400 mb-4"></i>
-                            <h3 className="text-xl font-bold">Eco Residential Complex</h3>
-                            <p className="text-gray-400">Kochi | 2023</p>
+                            <i className="fas fa-hospital text-5xl text-blue-400 mb-4"></i>
+                            <h3 className="text-xl font-bold">Government Hospital</h3>
+                            <p className="text-gray-400">Ludhiana | 2023</p>
                         </div>
                     </div>
                     <div className="bg-blue-400 bg-opacity-10 p-4 rounded-b-lg">
-                        <p className="text-sm text-gray-300">Sustainable living with 300+ apartments and green spaces</p>
+                        <p className="text-sm text-gray-300">30 Bedded Hospital At Jalandhar Bye Pass Road, Ludhiana.
+                        (Punjab Health System Corporation)</p>
                     </div>
                 </div>
             </div>
@@ -83,13 +85,13 @@ const CompletedProjects = () => {
                 <div className="h-full flex flex-col justify-between">
                     <div className="flex-1 flex items-center justify-center">
                         <div className="text-center">
-                            <i className="fas fa-hotel text-5xl text-blue-400 mb-4"></i>
-                            <h3 className="text-xl font-bold">Luxury Resort & Spa</h3>
-                            <p className="text-gray-400">Goa | 2021</p>
+                            <i className="fas fa-school text-5xl text-blue-400 mb-4"></i>
+                            <h3 className="text-xl font-bold">School</h3>
+                            <p className="text-gray-400">Pinjore | 2021</p>
                         </div>
                     </div>
                     <div className="bg-blue-400 bg-opacity-10 p-4 rounded-b-lg">
-                        <p className="text-sm text-gray-300">5-star hospitality project with beachfront architecture</p>
+                        <p className="text-sm text-gray-300">School At Dlf Valley, Sector-3, Pinjore, Kalka Urban Complex.</p>
                     </div>
                 </div>
             </div>
