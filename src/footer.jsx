@@ -4,9 +4,10 @@ const Footer  = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
                 <div className="flex items-center space-x-3 mb-4">
-                    <div className="w-10 h-10 bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center">
-                        <i className="fas fa-building text-white"></i>
-                    </div>
+                <div className="w-20 h-20  rounded-lg flex items-center justify-center">
+                    {/* <i className="fas fa-building text-white text-xl"></i> */}
+                    <img src="/assets/imagesVideos/kaushik-logo.png" alt='logo'/>
+                </div>
                     <div>
                         <h3 className="orbitron font-bold text-lg">KAUSHIK</h3>
                         <p className="text-xs text-gray-400">ARCHITECTS & BUILDERS</p>
@@ -60,7 +61,7 @@ const Footer  = () => {
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
             <p className="text-gray-400 text-sm">
-                © {new Date().getFullYear()} Kaushik Architects & Builders. All rights reserved.
+                © {new Date().getFullYear()} Kaushik Architects & Builders. All rights reserved. | Developed by PNG Software Technologies.
             </p>
         </div>
     </div>

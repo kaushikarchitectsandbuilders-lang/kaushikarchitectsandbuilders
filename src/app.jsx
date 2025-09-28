@@ -12,17 +12,11 @@ import MediaCarousel from "./carousel.jsx";
 import Footer from "./footer.jsx";
 import ContactDetails from "./contactDetails.jsx";
 
-// const mediaItems = [
-//   { type: "image", src: "https://via.placeholder.com/400x200.png?text=Image+1" },
-//   { type: "video", src: "https://www.w3schools.com/html/mov_bbb.mp4" },
-//   { type: "image", src: "https://via.placeholder.com/400x200.png?text=Image+2" },
-// ];
 export default function App() {
   const [showModal, setShowModal] = useState(false);
 
   return (
     <div onClick={() => setShowModal(false)}>
-      {" "}
       <Header />
       <Hero />
       <About />

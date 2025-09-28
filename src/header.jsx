@@ -4,8 +4,9 @@ export default function Header() {
     <nav className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
             <div className="flex items-center space-x-3">
-                <div className="w-12 h-12 bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center">
-                    <i className="fas fa-building text-white text-xl"></i>
+                <div className="w-20 h-20  rounded-lg flex items-center justify-center">
+                    {/* <i className="fas fa-building text-white text-xl"></i> */}
+                    <img src="/assets/imagesVideos/kaushik-logo.png" alt='logo'/>
                 </div>
                 <div>
                     <h1 className="orbitron text-xl font-bold text-white">KAUSHIK</h1>
