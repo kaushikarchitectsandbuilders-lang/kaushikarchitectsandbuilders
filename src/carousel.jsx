@@ -30,6 +30,9 @@ export default function MediaCarousel({ mediaItems , onClose}) {
         margin: '5vw 5vw'
 
       }}
+      onClick={(e) => {
+        e.stopPropagation()
+      }}
     >
       {/* Previous arrow */}
       <div

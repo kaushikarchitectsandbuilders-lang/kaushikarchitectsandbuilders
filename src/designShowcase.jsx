@@ -4,7 +4,8 @@ const DesignShowcase = ({setShowModal}) => {
     <div className="diagonal-content">
         <div className="container mx-auto px-6 ">
             <h2 className="section-title text-center">DESIGN SHOWCASE</h2>
-            <div onClick={() => {
+            <div onClick={(e) => {
+                e.stopPropagation()
                 setShowModal([
                     { type: "image", src: "/assets/imagesVideos/elevationDesigns/1.png" },
                     { type: "image", src: "/assets/imagesVideos/elevationDesigns/2.png" },

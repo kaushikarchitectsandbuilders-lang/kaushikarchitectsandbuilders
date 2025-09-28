@@ -9,12 +9,12 @@ const CompletedProjects = () => {
                     <div className="flex-1 flex items-center justify-center">
                         <div className="text-center">
                             <i className="fas fa-university text-5xl text-blue-400 mb-4"></i>
-                            <h3 className="text-xl font-bold">Med Clap Pvt. Ltd. </h3>
+                            <h3 className="text-xl font-bold">DG Tower</h3>
                             <p className="text-gray-400">Mohali | 2023</p>
                         </div>
                     </div>
                     <div className="bg-blue-400 bg-opacity-10 p-4 rounded-b-lg">
-                        <p className="text-sm text-gray-300">Text pending</p>
+                        <p className="text-sm text-gray-300">Complete project from concept to completion including handling planning, architectural design, material sourcing, and construction execution.</p>
                     </div>
                 </div>
             </div>
@@ -23,14 +23,13 @@ const CompletedProjects = () => {
                 <div className="h-full flex flex-col justify-between">
                     <div className="flex-1 flex items-center justify-center">
                         <div className="text-center">
-                            <i className="fas fa-hospital text-5xl text-blue-400 mb-4"></i>
-                            <h3 className="text-xl font-bold">Offshore A-1 Technologies Pvt. Ltd.</h3>
-                            <p className="text-gray-400">IT Park Panchkula | 2022</p>
+                            <i className="fas fa-home text-5xl text-blue-400 mb-4"></i>
+                            <h3 className="text-xl font-bold">AdiBadri Narayan Temple</h3>
+                            <p className="text-gray-400">Yamunanagar | 2022</p>
                         </div>
                     </div>
                     <div className="bg-blue-400 bg-opacity-10 p-4 rounded-b-lg">
-                        <p className="text-sm text-gray-300">Offshore A-1 Technologies Pvt. Ltd. IT Park Panchkula
-                        With Ar. Munish Marya</p>
+                        <p className="text-sm text-gray-300">Working Drawings for AdiBardi Narayan Temple in Yamunanagar</p>
                     </div>
                 </div>
             </div>
@@ -40,12 +39,12 @@ const CompletedProjects = () => {
                     <div className="flex-1 flex items-center justify-center">
                         <div className="text-center">
                             <i className="fas fa-building text-5xl text-blue-400 mb-4"></i>
-                            <h3 className="text-xl font-bold">Sun Enclave Tower</h3>
-                            <p className="text-gray-400">Rupnagar | 2021</p>
+                            <h3 className="text-xl font-bold">EXOTICA HOMEZ</h3>
+                            <p className="text-gray-400">Kharar | 2023</p>
                         </div>
                     </div>
                     <div className="bg-blue-400 bg-opacity-10 p-4 rounded-b-lg">
-                        <p className="text-sm text-gray-300">Sun Enclave Tower ,Rupnagar, Panjab</p>
+                        <p className="text-sm text-gray-300">Planning and Architecture Drawings</p>
                     </div>
                 </div>
             </div>
@@ -55,12 +54,12 @@ const CompletedProjects = () => {
                     <div className="flex-1 flex items-center justify-center">
                         <div className="text-center">
                             <i className="fas fa-shopping-bag text-5xl text-blue-400 mb-4"></i>
-                            <h3 className="text-xl font-bold">Rites Pvl. Ltd. Police Housing</h3>
-                            <p className="text-gray-400"> Sector 16-c Dwarka Delhi | Janakpuri New Delhi. | Dabri New Delhi</p>
+                            <h3 className="text-xl font-bold">Mini Secretariat </h3>
+                            <p className="text-gray-400"> Charki Dadri & Bhiwani | 2021</p>
                         </div>
                     </div>
                     <div className="bg-blue-400 bg-opacity-10 p-4 rounded-b-lg">
-                        <p className="text-sm text-gray-300">Premium retail destination with innovative architecture</p>
+                        <p className="text-sm text-gray-300">Working Drawings for Mini Secretariat at charki dadri.</p>
                     </div>
                 </div>
             </div>
@@ -71,12 +70,12 @@ const CompletedProjects = () => {
                         <div className="text-center">
                             <i className="fas fa-hospital text-5xl text-blue-400 mb-4"></i>
                             <h3 className="text-xl font-bold">Government Hospital</h3>
-                            <p className="text-gray-400">Ludhiana | 2023</p>
+                            <p className="text-gray-400">Faridabad | 2022</p>
                         </div>
                     </div>
                     <div className="bg-blue-400 bg-opacity-10 p-4 rounded-b-lg">
-                        <p className="text-sm text-gray-300">30 Bedded Hospital At Jalandhar Bye Pass Road, Ludhiana.
-                        (Punjab Health System Corporation)</p>
+                        <p className="text-sm text-gray-300">Preparation of working drawings for construction of  200 bedded mother and child hospital on the campus of BK civil hospital at faridabad
+                        </p>
                     </div>
                 </div>
             </div>

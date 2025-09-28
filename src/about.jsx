@@ -10,7 +10,7 @@ const About = () => {
                     <div className="floating-card">
                         <h3 className="text-2xl font-bold mb-3 text-blue-400">Our Story</h3>
                         <p className="text-gray-300">
-                            Kaushik Architects & Builders was founded in May 2014, beginning its journey with map approvals, architectural planning, 3D front elevations, interior 3D designs and consultancy services
+                            Kaushik Architects & Builders was founded in May 2014, beginning its journey with map approvals, architectural planning, 3D front elevations, interior 3D designs and consultancy services and construction company
                         </p>
                     </div>
                     

@@ -9,6 +9,8 @@ import Services from "./services.jsx";
 import Testimonials from "./testimonials.jsx";
 import DesignShowcase from "./designShowcase.jsx";
 import MediaCarousel from "./carousel.jsx";
+import Footer from "./footer.jsx";
+import ContactDetails from "./contactDetails.jsx";
 
 // const mediaItems = [
 //   { type: "image", src: "https://via.placeholder.com/400x200.png?text=Image+1" },
@@ -19,7 +21,7 @@ export default function App() {
   const [showModal, setShowModal] = useState(false);
 
   return (
-    <>
+    <div onClick={() => setShowModal(false)}>
       {" "}
       <Header />
       <Hero />
@@ -29,6 +31,8 @@ export default function App() {
       <Services />
       <Testimonials />
       <DesignShowcase setShowModal={setShowModal} />
+      <ContactDetails/>
+      <Footer/>
       {showModal ? (
         <MediaCarousel
           mediaItems={showModal}
@@ -40,11 +44,18 @@ export default function App() {
           position: "fixed",
           bottom: "10px",
           right: "10px",
+          display:'flex',
+          alignItems: 'center',
+          background:'#000',
+          gap:10,
+          padding: '5px 10px',
+          borderRadius:'5px'
         }}
-        className="text-blue-400 mb-4 cursor-pointer"
+        className="text-gray-400 mb-4 cursor-pointer"
       >
-        <a  target="_blank" href="assets/Kaushik Architects & Builders.pdf">Download broucher</a>
+        <i className="fa fa-download"></i>
+        <a  target="_blank" href="/assets/Kaushik Architects & Builders.pdf"> Broucher</a>
       </div>
-    </>
+    </div>
   );
 }
