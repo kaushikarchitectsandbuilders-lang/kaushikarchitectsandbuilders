@@ -25,10 +25,10 @@ export default function Header() {
             </div>
             
             <div className="flex items-center space-x-4">
-                <a href="tel:+91-9876543210" className="hidden lg:flex align-items-center text-blue-400 hover:text-blue-300">
+                <a href="tel:+91-7404421000" className="hidden lg:flex align-items-center text-blue-400 hover:text-blue-300">
                     <i className="fas fa-phone"></i> +91-74044-21000
                 </a>
-                <a href="tel:+91-9876543210" className=" md:hidden align-items-center text-blue-400 hover:text-blue-300">
+                <a href="tel:+91-7404421000" className=" md:hidden align-items-center text-blue-400 hover:text-blue-300">
                     <i className="fas fa-phone"></i> 7404421000
                 </a>
                 <div className="hidden md:flex space-x-3">

@@ -60,7 +60,8 @@ const ContactDetails = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold">Phone</h4>
-                  <p className="text-gray-400">+91-74044-21000 +91-89506-00043</p>
+                  <p className="text-gray-400">
+                    <a href="tel:+91-7404421000">+91-74044-21000</a><a href="tel:+91-8950689506"> +91-89506-89506</a></p>
                 </div>
               </div>
 
@@ -89,11 +90,12 @@ const ContactDetails = () => {
 
             <div className="mt-8 h-64 bg-gray-800 rounded-lg flex ">
               <iframe
+              title="map"
                 src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d217.89743881708358!2d76.79642698328446!3d30.39221289236447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sin!4v1759062388506!5m2!1sen!2sin"
                 style={{ border: 0, width: "100%" }}
-                allowfullscreen=""
+                allowFullScreen
                 loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
+                referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
           </div>
