@@ -47,9 +47,9 @@ const ContactDetails = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold">Address</h4>
-                  <p className="text-gray-400">
-                    SCO-3, Jaggi Garden, Naraingarh Road, Ambala City. PIN:
-                    134003
+                  <p className="text-gray-400" >
+                    <a target="_blank" href="https://www.google.com/maps/@30.392213,76.796427,19z?hl=en&entry=ttu&g_ep=EgoyMDI1MTAwMS4wIKXMDSoASAFQAw%3D%3D">SCO-3, Jaggi Garden, Naraingarh Road, Ambala City. PIN:
+                    134003</a>
                   </p>
                 </div>
               </div>
@@ -61,7 +61,7 @@ const ContactDetails = () => {
                 <div>
                   <h4 className="font-semibold">Phone</h4>
                   <p className="text-gray-400">
-                    <a href="tel:+91-7404421000">+91-74044-21000</a><a href="tel:+91-8950689506"> +91-89506-89506</a></p>
+                    <a href="tel:+91-7404421000">+91-74044-21000</a><a href="tel:+91-8950600043"> +91-89506-00043</a></p>
                 </div>
               </div>
 
