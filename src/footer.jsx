@@ -54,7 +54,7 @@ const Footer  = () => {
                 </div>
                 <div className="mt-4">
                     <p className="text-gray-400 text-sm">Call us:</p>
-                    <p className="text-blue-400 font-semibold">                    <a href="tel:+91-7404421000">+91-74044-21000</a><a href="tel:+91-8950689506"> +91-89506-89506</a></p>
+                    <p className="text-blue-400 font-semibold">                    <a href="tel:+91-7404421000">+91-74044-21000</a><a href="tel:+91-8950600043"> +91-89506-00043</a></p>
                 </div>
             </div>
         </div>
